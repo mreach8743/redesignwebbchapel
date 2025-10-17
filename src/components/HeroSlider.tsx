@@ -6,17 +6,17 @@ const HeroSlider: React.FC = () => {
   const slides = [
     {
       id: 1,
-      image: '../src/assets/images/slider1.jpg',
+      image: '/redesignwebbchapel/images/slider1.jpg',
       alt: 'Webb Chapel Announcement 1'
     },
     {
       id: 2,
-      image: '../src/assets/images/slider2.jpg',
+      image: '/redesignwebbchapel/images/slider2.jpg',
       alt: 'Webb Chapel Announcement 2'
     },
     {
       id: 3,
-      image: '../src/assets/images/slider3.jpg',
+      image: '/redesignwebbchapel/images/slider3.jpg',
       alt: 'Webb Chapel Announcement 3'
     }
   ];

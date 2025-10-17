@@ -73,7 +73,7 @@ function Header() {
             <div className="flex-shrink-0">
               <Link to="/">
                 <img 
-                  src="/src/assets/images/logo.png" 
+                  src="/redesignwebbchapel/images/logo.png" 
                   alt="Webb Chapel church of Christ" 
                   className="h-20 w-auto"
                 />

@@ -24,7 +24,7 @@ const SitbPage: React.FC = () => {
         <div className="text-center mb-12">
           <div className="bg-white rounded-lg shadow-lg p-8 max-w-2xl mx-auto">
             <img 
-              src="/images/sitb-logo.png" 
+              src="/redesignwebbchapel/images/sitb-logo.png" 
               alt="SITB Logo" 
               className="mx-auto mb-6 max-w-full h-auto"
             />

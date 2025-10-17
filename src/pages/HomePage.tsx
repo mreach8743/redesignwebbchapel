@@ -55,7 +55,7 @@ const HomePage: React.FC = () => {
             <div className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
               <Link to="/imnewhere">
                 <img 
-                  src="/src/assets/images/thumb-imnew.jpg" 
+                  src="/redesignwebbchapel/images/thumb-imnew.jpg" 
                   alt="Welcome" 
                   className="w-full h-48 object-cover"
                 />
@@ -69,7 +69,7 @@ const HomePage: React.FC = () => {
             <div className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
               <a href="http://www.jamesgroupministries.com" target="_blank" rel="noopener noreferrer">
                 <img 
-                  src="/src/assets/images/thumb-jamesgroup.jpg" 
+                  src="/redesignwebbchapel/images/thumb-jamesgroup.jpg" 
                   alt="James Group" 
                   className="w-full h-48 object-cover"
                 />
@@ -83,7 +83,7 @@ const HomePage: React.FC = () => {
             <div className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
               <Link to="/sitb">
                 <img 
-                  src="/src/assets/images/thumb-studiesinthebible.jpg" 
+                  src="/redesignwebbchapel/images/thumb-studiesinthebible.jpg" 
                   alt="Studies in the Bible" 
                   className="w-full h-48 object-cover"
                 />
@@ -97,7 +97,7 @@ const HomePage: React.FC = () => {
             <div className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
               <Link to="/giving">
                 <img 
-                  src="/src/assets/images/thumb-giving.jpg" 
+                  src="/redesignwebbchapel/images/thumb-giving.jpg" 
                   alt="Giving" 
                   className="w-full h-48 object-cover"
                 />
@@ -111,7 +111,7 @@ const HomePage: React.FC = () => {
             <div className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
               <Link to="/ministries">
                 <img 
-                  src="/src/assets/images/thumb-ministries.jpg" 
+                  src="/redesignwebbchapel/images/thumb-ministries.jpg" 
                   alt="Ministries" 
                   className="w-full h-48 object-cover"
                 />
@@ -125,7 +125,7 @@ const HomePage: React.FC = () => {
             <div className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
               <Link to="/missionaries">
                 <img 
-                  src="/src/assets/images/thumb-missionaries.jpg" 
+                  src="/redesignwebbchapel/images/thumb-missionaries.jpg" 
                   alt="Missionaries" 
                   className="w-full h-48 object-cover"
                 />
@@ -139,7 +139,7 @@ const HomePage: React.FC = () => {
             <div className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
               <Link to="/smallgroups">
                 <img 
-                  src="/src/assets/images/thumb-smallgroups.jpg" 
+                  src="/redesignwebbchapel/images/thumb-smallgroups.jpg" 
                   alt="Small Groups" 
                   className="w-full h-48 object-cover"
                 />
@@ -153,7 +153,7 @@ const HomePage: React.FC = () => {
             <div className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
               <Link to="/summerlearningcamp">
                 <img 
-                  src="/src/assets/images/thumb-summerlearningcamp.jpg" 
+                  src="/redesignwebbchapel/images/thumb-summerlearningcamp.jpg" 
                   alt="Summer Learning Camp" 
                   className="w-full h-48 object-cover"
                 />
@@ -228,7 +228,7 @@ const HomePage: React.FC = () => {
               className="bg-white rounded-lg shadow-md p-4 hover:shadow-lg transition-shadow text-center"
             >
               <img 
-                src="/src/assets/images/eem.jpg" 
+                src="/redesignwebbchapel/images/eem.jpg" 
                 alt="Eastern European Missions" 
                 className="w-full h-20 object-contain mb-2"
               />
@@ -242,7 +242,7 @@ const HomePage: React.FC = () => {
               className="bg-white rounded-lg shadow-md p-4 hover:shadow-lg transition-shadow text-center"
             >
               <img 
-                src="/src/assets/images/gcm.jpg" 
+                src="/redesignwebbchapel/images/gcm.jpg" 
                 alt="Great Cities Missions" 
                 className="w-full h-20 object-contain mb-2"
               />
@@ -256,7 +256,7 @@ const HomePage: React.FC = () => {
               className="bg-white rounded-lg shadow-md p-4 hover:shadow-lg transition-shadow text-center"
             >
               <img 
-                src="/src/assets/images/jamesgroup.jpg" 
+                src="/redesignwebbchapel/images/jamesgroup.jpg" 
                 alt="James Group Ministries" 
                 className="w-full h-20 object-contain mb-2"
               />
@@ -270,7 +270,7 @@ const HomePage: React.FC = () => {
               className="bg-white rounded-lg shadow-md p-4 hover:shadow-lg transition-shadow text-center"
             >
               <img 
-                src="/src/assets/images/mrn.jpg" 
+                src="/redesignwebbchapel/images/mrn.jpg" 
                 alt="Missions Resource Network" 
                 className="w-full h-20 object-contain mb-2"
               />
@@ -282,7 +282,7 @@ const HomePage: React.FC = () => {
               className="bg-white rounded-lg shadow-md p-4 hover:shadow-lg transition-shadow text-center"
             >
               <img 
-                src="/src/assets/images/sitb.jpg" 
+                src="/redesignwebbchapel/images/sitb.jpg" 
                 alt="Studies In The Bible" 
                 className="w-full h-20 object-contain mb-2"
               />
@@ -296,7 +296,7 @@ const HomePage: React.FC = () => {
               className="bg-white rounded-lg shadow-md p-4 hover:shadow-lg transition-shadow text-center"
             >
               <img 
-                src="/src/assets/images/wbs.jpg" 
+                src="/redesignwebbchapel/images/wbs.jpg" 
                 alt="World Bible School" 
                 className="w-full h-20 object-contain mb-2"
               />

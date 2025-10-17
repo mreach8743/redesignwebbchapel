@@ -23,7 +23,7 @@ const SummerLearningCampPage: React.FC = () => {
         <div className="text-center mb-12">
           <div className="bg-white rounded-lg shadow-lg p-8 max-w-2xl mx-auto">
             <img 
-              src="/images/summerlearningcamp-logo.jpg" 
+              src="/redesignwebbchapel/images/thumb-summerlearningcamp.jpg" 
               alt="Summer Learning Camp Logo" 
               className="mx-auto mb-6 max-w-full h-auto"
             />
