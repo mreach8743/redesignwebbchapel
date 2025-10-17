@@ -20,7 +20,9 @@ body {
 }
 
 .header-background {
-  background: url(../src/assets/images/headerbg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .church-blue-background {
