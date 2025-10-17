@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { getImagePath } from '../utils/assets';
 
 const HeroSlider: React.FC = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -6,17 +7,17 @@ const HeroSlider: React.FC = () => {
   const slides = [
     {
       id: 1,
-      image: '/redesignwebbchapel/images/slider1.jpg',
+      image: getImagePath('slider1.jpg'),
       alt: 'Webb Chapel Announcement 1'
     },
     {
       id: 2,
-      image: '/redesignwebbchapel/images/slider2.jpg',
+      image: getImagePath('slider2.jpg'),
       alt: 'Webb Chapel Announcement 2'
     },
     {
       id: 3,
-      image: '/redesignwebbchapel/images/slider3.jpg',
+      image: getImagePath('slider3.jpg'),
       alt: 'Webb Chapel Announcement 3'
     }
   ];

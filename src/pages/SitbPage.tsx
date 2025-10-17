@@ -1,4 +1,5 @@
 import React from 'react';
+import { getImagePath } from '../utils/assets';
 import { BookOpen, Mail, Clock, Users } from 'lucide-react';
 import CognitoForm from '../components/CognitoForm';
 
@@ -24,7 +25,7 @@ const SitbPage: React.FC = () => {
         <div className="text-center mb-12">
           <div className="bg-white rounded-lg shadow-lg p-8 max-w-2xl mx-auto">
             <img 
-              src="/redesignwebbchapel/images/sitb-logo.png" 
+              src={getImagePath('sitb-logo.png')} 
               alt="SITB Logo" 
               className="mx-auto mb-6 max-w-full h-auto"
             />

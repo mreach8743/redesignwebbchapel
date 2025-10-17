@@ -1,9 +1,19 @@
 import { Link } from 'react-router-dom';
 import { ChevronDown, Menu, X } from 'lucide-react';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
+import { getImagePath } from '../utils/assets';
 
 function Header() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  
+  // Set background image dynamically
+  useEffect(() => {
+    const header = document.querySelector('.header-background') as HTMLElement;
+    if (header) {
+      header.style.backgroundImage = `url(${getImagePath('headerbg.jpg')})`;
+    }
+  }, []);
+
   return (
     <>
       {/* Main Header */}
@@ -73,7 +83,7 @@ function Header() {
             <div className="flex-shrink-0">
               <Link to="/">
                 <img 
-                  src="/redesignwebbchapel/images/logo.png" 
+                  src={getImagePath('logo.png')} 
                   alt="Webb Chapel church of Christ" 
                   className="h-20 w-auto"
                 />

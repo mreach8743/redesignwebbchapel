@@ -1,4 +1,5 @@
 import React from 'react';
+import { getImagePath } from '../utils/assets';
 import { Calendar, Clock, Users, BookOpen, Music, Utensils } from 'lucide-react';
 
 const SummerLearningCampPage: React.FC = () => {
@@ -23,7 +24,7 @@ const SummerLearningCampPage: React.FC = () => {
         <div className="text-center mb-12">
           <div className="bg-white rounded-lg shadow-lg p-8 max-w-2xl mx-auto">
             <img 
-              src="/redesignwebbchapel/images/thumb-summerlearningcamp.jpg" 
+              src={getImagePath('thumb-summerlearningcamp.jpg')} 
               alt="Summer Learning Camp Logo" 
               className="mx-auto mb-6 max-w-full h-auto"
             />
