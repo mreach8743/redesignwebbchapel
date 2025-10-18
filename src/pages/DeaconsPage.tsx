@@ -5,21 +5,43 @@ const DeaconsPage: React.FC = () => {
   const deacons = [
     {
       name: "Dennis Bartley",
-      image: "/images/leadership/deacons/deaconBartleyDennis.jpg",
-      role: "WebbKids Ministry",
+      image: "images/leadership/deacons/deaconBartleyDennis.jpg",
       bio: "Dennis and his wife Julie placed membership at Webb Chapel in 1997. Dennis became a Deacon in 2006 and currently handles WebbKids (ages 2 - 5th grade and their families). Dennis and Julie are also co-leaders of a Small Group. They were married in 1996 and have 3 children, twins William and Grant and daughter Claire."
     },
     {
-      name: "John Doe",
-      image: "/images/leadership/deacons/deaconDoeJohn.jpg",
-      role: "Facilities & Maintenance",
-      bio: "John has been serving as a deacon for several years, overseeing the maintenance and care of our church facilities."
+      name: "David Day",
+      image: "images/leadership/deacons/deaconDayDavid.jpg",
+      bio: "David and his wife Lisa were married and placed membership at Webb Chapel in 1996. He became a deacon in 2006 and works with Retreats and Special Projects, and leads the communion servers and men's activities. They co-coordinate the Care Group Ministry and are Small Group Leaders. They are the parents of Alexander and Aubrey."
     },
     {
-      name: "Jane Smith",
-      image: "/images/leadership/deacons/deaconSmithJane.jpg",
-      role: "Community Outreach",
-      bio: "Jane leads our community outreach efforts, organizing events and programs to serve our local community."
+      name: "Luis Estrada",
+      image: "images/leadership/deacons/deaconEstradaLuis.jpg",
+      bio: "Luis and his wife, Ana Maria (Maria) were married in 2004 and placed membership at Webb Chapel in 2018. Luis became a deacon in 2021 and helps with Spanish membership and community outreach. Luis and Maria are active in Small Groups and bible studies with the Spanish-speaking members. They have two children, Mario and Alina who are growing and learning in the Children's Ministry."
+    },
+    {
+      name: "Ged Erwin",
+      image: "images/leadership/deacons/deaconGedErwin.jpg",
+      bio: "Ged and and his wife Jodie were married in 2001, and placed membership at Webb Chapel in 2008. Ged became a deacon in 2011 and helps with Health & Wellness due to his medical background. Their children are Callahan and Isabelle Clarice."
+    },
+    {
+      name: "Bob Fellers",
+      image: "images/leadership/deacons/deaconFellersBob.jpg",
+      bio: "Bob and his wife Lynne were married in 1974, and placed membership at Webb Chapel in 1977. Bob became a deacon in 1984 and helps with transportation, ushering and tracks attendance. Lynne helps with children's Bible classes. They have two daughters, Lindsay and husband Derek Crites of McKinney and daughter Lauren of New York City."
+    },
+    {
+      name: "John Gattis",
+      image: "images/leadership/deacons/deaconJohnGattis.jpg",
+      bio: "John and his wife Crystal were married in 1995, placed membership membership at Webb Chapel in 1994, and John became a deacon in 2011, helping with ESL. Crystal helps with children's Bible classes. They are the parents of their son, Zachary Weisbard."
+    },
+    {
+      name: "Bondey Mays",
+      image: "images/leadership/deacons/deaconMaysBondey.jpg",
+      bio: "Bondey and his wife Jan were married in 1969 and placed membership with Webb Chapel in 2001. Bondey became a deacon in 2011 and helps with the Spanish ministry and PT Cruzer. They have two children, daughter Kelly and husband DJ Overman and son Jordan. They have 4 grandchildren."
+    },
+    {
+      name: "Mike Swayne",
+      image: "images/leadership/deacons/deaconSwayneMike.jpg",
+      bio: "Mike and Judi were married in 1967, and placed membership at Webb Chapel in 1973. Mike became a deacon in 1988 and helps with Audio. Judi helps with children's Bible classes. They have a son named Eric and his wife Larissa of Dallas, and three grandchildren."
     }
   ];
 
@@ -32,30 +54,11 @@ const DeaconsPage: React.FC = () => {
             <h1 className="text-4xl md:text-5xl font-bold mb-4">
               Our Deacons
             </h1>
-            <p className="text-xl md:text-2xl text-blue-100">
-              Servant leaders supporting our church ministries
-            </p>
           </div>
         </div>
       </div>
 
       <div className="container mx-auto px-4 py-12">
-        {/* Introduction */}
-        <div className="max-w-4xl mx-auto mb-12">
-          <div className="bg-white rounded-lg shadow-lg p-8">
-            <div className="text-center mb-8">
-              <Users className="w-16 h-16 text-church-blue mx-auto mb-4" />
-              <h2 className="text-3xl font-bold text-gray-800 mb-4">
-                Meet Our Deacons
-              </h2>
-              <p className="text-lg text-gray-600">
-                Our deacons are servant leaders who support various ministries and practical needs of our church. 
-                They work alongside our shepherds to ensure the smooth operation of church activities and care for 
-                the practical needs of our congregation.
-              </p>
-            </div>
-          </div>
-        </div>
 
         {/* Deacons Grid */}
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
@@ -71,9 +74,6 @@ const DeaconsPage: React.FC = () => {
                   <h3 className="text-2xl font-bold text-gray-800 mb-2">
                     {deacon.name}
                   </h3>
-                  <p className="text-church-blue font-semibold mb-4">
-                    {deacon.role}
-                  </p>
                 </div>
                 <p className="text-gray-600 leading-relaxed">
                   {deacon.bio}
@@ -81,74 +81,6 @@ const DeaconsPage: React.FC = () => {
               </div>
             </div>
           ))}
-        </div>
-
-        {/* Ministry Areas */}
-        <div className="bg-gradient-to-r from-church-blue to-blue-800 text-white rounded-lg p-8 mb-12">
-          <h2 className="text-3xl font-bold text-center mb-8">
-            Ministry Areas
-          </h2>
-          
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-            <div className="text-center">
-              <Heart className="w-12 h-12 mx-auto mb-4" />
-              <h3 className="text-xl font-bold mb-3">Children's Ministry</h3>
-              <p className="text-blue-100">
-                WebbKids and youth programs for children of all ages
-              </p>
-            </div>
-            
-            <div className="text-center">
-              <Wrench className="w-12 h-12 mx-auto mb-4" />
-              <h3 className="text-xl font-bold mb-3">Facilities</h3>
-              <p className="text-blue-100">
-                Maintenance and care of church buildings and grounds
-              </p>
-            </div>
-            
-            <div className="text-center">
-              <BookOpen className="w-12 h-12 mx-auto mb-4" />
-              <h3 className="text-xl font-bold mb-3">Education</h3>
-              <p className="text-blue-100">
-                Bible study programs and educational ministries
-              </p>
-            </div>
-            
-            <div className="text-center">
-              <Users className="w-12 h-12 mx-auto mb-4" />
-              <h3 className="text-xl font-bold mb-3">Community</h3>
-              <p className="text-blue-100">
-                Outreach and community service programs
-              </p>
-            </div>
-          </div>
-        </div>
-
-        {/* Contact Information */}
-        <div className="bg-white rounded-lg shadow-lg p-8">
-          <h2 className="text-2xl font-bold text-gray-800 mb-6 text-center">
-            Contact Our Deacons
-          </h2>
-          <div className="text-center">
-            <p className="text-gray-600 mb-4">
-              If you have questions about specific ministries or would like to get involved in serving, 
-              please contact the appropriate deacon or reach out to our church office.
-            </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a 
-                href="/contact" 
-                className="bg-church-blue text-white px-8 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors"
-              >
-                Contact Us
-              </a>
-              <a 
-                href="/ministries" 
-                className="bg-gray-200 text-gray-800 px-8 py-3 rounded-lg font-semibold hover:bg-gray-300 transition-colors"
-              >
-                Our Ministries
-              </a>
-            </div>
-          </div>
         </div>
       </div>
     </div>
