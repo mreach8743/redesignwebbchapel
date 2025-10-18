@@ -1,5 +1,4 @@
 import React from 'react';
-import { Users, Wrench, Heart, BookOpen } from 'lucide-react';
 
 const DeaconsPage: React.FC = () => {
   const deacons = [
